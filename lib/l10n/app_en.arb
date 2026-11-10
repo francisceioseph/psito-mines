@@ -1,60 +1,86 @@
 {
   "@@locale": "en",
   "appTitle": "Psito Mines",
-  "newGame": "New game",
   "youWon": "You found them all!",
-  "playAgain": "Play again",
   "caught": "A cat caught you!",
   "tryAgain": "Try again",
   "winSummary": "Every cat found in {time}",
   "@winSummary": {
-    "placeholders": { "time": { "type": "String" } }
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
   },
-  "yourName": "Your name",
-  "save": "Save",
-  "skip": "Skip",
-  "bestGames": "Best games",
-  "noScores": "No games won yet.",
-  "close": "Close",
   "statCats": "Cats",
-  "statTime": "Time",
-  "moreOptions": "More options",
-  "difficulty": "Difficulty",
   "easy": "Easy",
   "medium": "Medium",
   "hard": "Hard",
   "difficultyDetail": "{name}: {width} × {height}, {cats} cats",
   "@difficultyDetail": {
     "placeholders": {
-      "name": { "type": "String" },
-      "width": { "type": "int" },
-      "height": { "type": "int" },
-      "cats": { "type": "int" }
+      "name": {
+        "type": "String"
+      },
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      },
+      "cats": {
+        "type": "int"
+      }
     }
   },
-  "howToPlay": "How to play",
-  "about": "About",
   "howToPlayBody": "Some cats are hiding under the leaves. Lift every leaf that has no cat under it.\n\nA click lifts a leaf, and the first one is always safe. A number tells how many cats are in the eight leaves around it.\n\nThe right button, or holding the click, puts a feather on a leaf you suspect, and a leaf with a feather cannot be lifted by accident.\n\nA click on a number lifts the leaves around it when the feathers there add up to that number. If a feather is in the wrong place, the cat gets out.\n\nCtrl+N starts a new game.",
   "aboutBody": "Find the cats hiding under the leaves, with cockatiels. No ads, no telemetry and no account.",
   "aboutLegal": "Code under the Apache 2.0 license. Art under CC0.",
   "cellLeaf": "Leaf, row {row}, column {column}",
   "@cellLeaf": {
-    "placeholders": { "row": { "type": "int" }, "column": { "type": "int" } }
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      }
+    }
   },
   "cellFeather": "Leaf with a feather, row {row}, column {column}",
   "@cellFeather": {
-    "placeholders": { "row": { "type": "int" }, "column": { "type": "int" } }
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      }
+    }
   },
   "cellCat": "Cat, row {row}, column {column}",
   "@cellCat": {
-    "placeholders": { "row": { "type": "int" }, "column": { "type": "int" } }
+    "placeholders": {
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      }
+    }
   },
   "cellOpen": "{count, plural, =0{No cats nearby} =1{1 cat nearby} other{{count} cats nearby}}, row {row}, column {column}",
   "@cellOpen": {
     "placeholders": {
-      "count": { "type": "int" },
-      "row": { "type": "int" },
-      "column": { "type": "int" }
+      "count": {
+        "type": "int"
+      },
+      "row": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      }
     }
   }
 }

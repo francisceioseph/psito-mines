@@ -104,23 +104,11 @@ abstract class AppLocalizations {
   /// **'Psito Mines'**
   String get appTitle;
 
-  /// No description provided for @newGame.
-  ///
-  /// In en, this message translates to:
-  /// **'New game'**
-  String get newGame;
-
   /// No description provided for @youWon.
   ///
   /// In en, this message translates to:
   /// **'You found them all!'**
   String get youWon;
-
-  /// No description provided for @playAgain.
-  ///
-  /// In en, this message translates to:
-  /// **'Play again'**
-  String get playAgain;
 
   /// No description provided for @caught.
   ///
@@ -140,65 +128,11 @@ abstract class AppLocalizations {
   /// **'Every cat found in {time}'**
   String winSummary(String time);
 
-  /// No description provided for @yourName.
-  ///
-  /// In en, this message translates to:
-  /// **'Your name'**
-  String get yourName;
-
-  /// No description provided for @save.
-  ///
-  /// In en, this message translates to:
-  /// **'Save'**
-  String get save;
-
-  /// No description provided for @skip.
-  ///
-  /// In en, this message translates to:
-  /// **'Skip'**
-  String get skip;
-
-  /// No description provided for @bestGames.
-  ///
-  /// In en, this message translates to:
-  /// **'Best games'**
-  String get bestGames;
-
-  /// No description provided for @noScores.
-  ///
-  /// In en, this message translates to:
-  /// **'No games won yet.'**
-  String get noScores;
-
-  /// No description provided for @close.
-  ///
-  /// In en, this message translates to:
-  /// **'Close'**
-  String get close;
-
   /// No description provided for @statCats.
   ///
   /// In en, this message translates to:
   /// **'Cats'**
   String get statCats;
-
-  /// No description provided for @statTime.
-  ///
-  /// In en, this message translates to:
-  /// **'Time'**
-  String get statTime;
-
-  /// No description provided for @moreOptions.
-  ///
-  /// In en, this message translates to:
-  /// **'More options'**
-  String get moreOptions;
-
-  /// No description provided for @difficulty.
-  ///
-  /// In en, this message translates to:
-  /// **'Difficulty'**
-  String get difficulty;
 
   /// No description provided for @easy.
   ///
@@ -223,18 +157,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{name}: {width} × {height}, {cats} cats'**
   String difficultyDetail(String name, int width, int height, int cats);
-
-  /// No description provided for @howToPlay.
-  ///
-  /// In en, this message translates to:
-  /// **'How to play'**
-  String get howToPlay;
-
-  /// No description provided for @about.
-  ///
-  /// In en, this message translates to:
-  /// **'About'**
-  String get about;
 
   /// No description provided for @howToPlayBody.
   ///

@@ -1,17 +1,21 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:psito_games_ui/psito_games_ui.dart';
 import 'package:psito_mines/l10n/app_localizations.dart';
 import 'package:psito_mines/src/game/game_controller.dart';
 import 'package:psito_mines/src/game/game_state.dart';
 import 'package:psito_mines/src/game/scores.dart';
-import 'package:psito_mines/src/ui/board.dart';
-import 'package:psito_mines/src/ui/game_screen.dart';
+import 'package:psito_mines/src/ui/organisms/board.dart';
+import 'package:psito_mines/src/ui/pages/game_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Widget app(Widget home) => MaterialApp(
   locale: const Locale('pt'),
-  localizationsDelegates: AppLocalizations.localizationsDelegates,
+  localizationsDelegates: const [
+    ...AppLocalizations.localizationsDelegates,
+    GamesUiLocalizations.delegate,
+  ],
   supportedLocales: AppLocalizations.supportedLocales,
   home: home,
 );

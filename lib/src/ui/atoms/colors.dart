@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:psito_games_ui/psito_games_ui.dart';
 
 abstract final class PsitoColors {
   static const felt = Color(0xFF4A3B52);
@@ -14,3 +15,17 @@ abstract final class PsitoColors {
   static const barTop = Color(0xFF35293D);
   static const barBottom = Color(0xFF2A2031);
 }
+
+/// The garden at dusk, for the shared widgets.
+const minesPalette = GamePalette(
+  felt: PsitoColors.felt,
+  feltGlow: PsitoColors.feltGlow,
+  feltDark: PsitoColors.feltDark,
+  feltLight: PsitoColors.feltLight,
+  barTop: PsitoColors.barTop,
+  barBottom: PsitoColors.barBottom,
+  onFelt: PsitoColors.onFelt,
+  onFeltMuted: PsitoColors.onFeltMuted,
+  cream: PsitoColors.cream,
+  ink: PsitoColors.black,
+);

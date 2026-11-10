@@ -13,13 +13,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get appTitle => 'Psito Mines';
 
   @override
-  String get newGame => 'New game';
-
-  @override
   String get youWon => 'You found them all!';
-
-  @override
-  String get playAgain => 'Play again';
 
   @override
   String get caught => 'A cat caught you!';
@@ -33,34 +27,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get yourName => 'Your name';
-
-  @override
-  String get save => 'Save';
-
-  @override
-  String get skip => 'Skip';
-
-  @override
-  String get bestGames => 'Best games';
-
-  @override
-  String get noScores => 'No games won yet.';
-
-  @override
-  String get close => 'Close';
-
-  @override
   String get statCats => 'Cats';
-
-  @override
-  String get statTime => 'Time';
-
-  @override
-  String get moreOptions => 'More options';
-
-  @override
-  String get difficulty => 'Difficulty';
 
   @override
   String get easy => 'Easy';
@@ -75,12 +42,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String difficultyDetail(String name, int width, int height, int cats) {
     return '$name: $width × $height, $cats cats';
   }
-
-  @override
-  String get howToPlay => 'How to play';
-
-  @override
-  String get about => 'About';
 
   @override
   String get howToPlayBody =>

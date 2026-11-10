@@ -36,12 +36,6 @@ List<Score> insertScore(List<Score> scores, Score score) {
   return sorted.take(maxScores).toList();
 }
 
-String formatTime(int seconds) {
-  final minutes = seconds ~/ 60;
-  final rest = (seconds % 60).toString().padLeft(2, '0');
-  return '$minutes:$rest';
-}
-
 /// The scores of each difficulty, the last name used and the last difficulty
 /// played. They stay on this computer.
 class ScoreStore {
