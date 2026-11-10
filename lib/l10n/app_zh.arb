@@ -1,0 +1,20 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Psito Mines",
+  "youWon": "全部找到了！",
+  "caught": "被猫抓住了！",
+  "tryAgain": "再试一次",
+  "winSummary": "用时 {time} 找到所有的猫",
+  "statCats": "猫",
+  "easy": "简单",
+  "medium": "中等",
+  "hard": "困难",
+  "difficultyDetail": "{name}：{width} × {height}，{cats} 只猫",
+  "howToPlayBody": "有些猫藏在树叶下面。掀开所有下面没有猫的树叶。\n\n单击掀开一片树叶，第一片总是安全的。数字表示它周围八片树叶下有几只猫。\n\n右键或长按会在可疑的树叶上放一根羽毛，放了羽毛的树叶不会被误掀。\n\n当数字周围的羽毛数正好等于这个数字时，单击它会掀开周围的树叶。如果羽毛放错了地方，猫就会跑出来。\n\nCtrl+N 开始新游戏。",
+  "aboutBody": "和玄凤鹦鹉一起，找出藏在树叶下的猫。没有广告，没有遥测，也不需要账号。",
+  "aboutLegal": "代码采用 Apache 2.0 许可证。美术采用 CC0。",
+  "cellLeaf": "树叶，第 {row} 行，第 {column} 列",
+  "cellFeather": "有羽毛的树叶，第 {row} 行，第 {column} 列",
+  "cellCat": "猫，第 {row} 行，第 {column} 列",
+  "cellOpen": "{count, plural, =0{附近没有猫} other{附近有 {count} 只猫}}，第 {row} 行，第 {column} 列"
+}

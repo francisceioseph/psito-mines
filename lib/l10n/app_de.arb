@@ -1,0 +1,20 @@
+{
+  "@@locale": "de",
+  "appTitle": "Psito Mines",
+  "youWon": "Du hast alle gefunden!",
+  "caught": "Eine Katze hat dich erwischt!",
+  "tryAgain": "Nochmal versuchen",
+  "winSummary": "Alle Katzen gefunden in {time}",
+  "statCats": "Katzen",
+  "easy": "Leicht",
+  "medium": "Mittel",
+  "hard": "Schwer",
+  "difficultyDetail": "{name}: {width} × {height}, {cats} Katzen",
+  "howToPlayBody": "Unter den Blättern verstecken sich Katzen. Hebe jedes Blatt hoch, unter dem keine Katze ist.\n\nEin Klick hebt ein Blatt, und das erste ist immer sicher. Eine Zahl sagt, wie viele Katzen unter den acht Blättern um sie herum sind.\n\nDie rechte Maustaste oder ein langer Klick legt eine Feder auf ein verdächtiges Blatt, und ein Blatt mit Feder lässt sich nicht aus Versehen heben.\n\nEin Klick auf eine Zahl hebt die Blätter um sie herum, wenn die Federn dort genau diese Zahl ergeben. Liegt eine Feder falsch, entwischt die Katze.\n\nStrg+N startet ein neues Spiel.",
+  "aboutBody": "Finde die Katzen unter den Blättern, mit Nymphensittichen. Ohne Werbung, ohne Telemetrie und ohne Konto.",
+  "aboutLegal": "Code unter der Apache-2.0-Lizenz. Grafiken unter CC0.",
+  "cellLeaf": "Blatt, Zeile {row}, Spalte {column}",
+  "cellFeather": "Blatt mit Feder, Zeile {row}, Spalte {column}",
+  "cellCat": "Katze, Zeile {row}, Spalte {column}",
+  "cellOpen": "{count, plural, =0{Keine Katze in der Nähe} =1{1 Katze in der Nähe} other{{count} Katzen in der Nähe}}, Zeile {row}, Spalte {column}"
+}

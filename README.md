@@ -16,7 +16,7 @@ with Flutter. No ads, no telemetry and no account: just a little game and some h
 - Leaves that open in a wave from the leaf you clicked
 - A curious cockatiel that peeks from every edge of the garden when you stop to think
 - Keyboard shortcut: `Ctrl+N` starts a new game
-- English and Portuguese
+- English, Portuguese, Spanish, French, German, Russian and Chinese
 
 ## Install
 

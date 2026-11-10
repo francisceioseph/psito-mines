@@ -1,0 +1,20 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Psito Mines",
+  "youWon": "Vous les avez tous trouvés !",
+  "caught": "Un chat vous a attrapé !",
+  "tryAgain": "Réessayer",
+  "winSummary": "Tous les chats trouvés en {time}",
+  "statCats": "Chats",
+  "easy": "Facile",
+  "medium": "Moyen",
+  "hard": "Difficile",
+  "difficultyDetail": "{name} : {width} × {height}, {cats} chats",
+  "howToPlayBody": "Des chats se cachent sous les feuilles. Soulevez toutes les feuilles qui ne cachent pas de chat.\n\nUn clic soulève une feuille, et la première est toujours sûre. Un nombre indique combien de chats se trouvent dans les huit feuilles qui l’entourent.\n\nLe bouton droit, ou un clic maintenu, pose une plume sur une feuille suspecte, et une feuille avec une plume ne se soulève pas par erreur.\n\nUn clic sur un nombre soulève les feuilles autour quand les plumes posées là font ce nombre. Si une plume est mal placée, le chat s’échappe.\n\nCtrl+N lance une nouvelle partie.",
+  "aboutBody": "Trouvez les chats cachés sous les feuilles, avec des calopsittes. Sans publicité, sans télémétrie et sans compte.",
+  "aboutLegal": "Code sous licence Apache 2.0. Illustrations sous CC0.",
+  "cellLeaf": "Feuille, ligne {row}, colonne {column}",
+  "cellFeather": "Feuille avec une plume, ligne {row}, colonne {column}",
+  "cellCat": "Chat, ligne {row}, colonne {column}",
+  "cellOpen": "{count, plural, =0{Aucun chat autour} =1{1 chat autour} other{{count} chats autour}}, ligne {row}, colonne {column}"
+}
