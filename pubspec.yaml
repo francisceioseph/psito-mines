@@ -1,7 +1,7 @@
 name: psito_mines
 description: "Find the cats hiding under the leaves, with cockatiels. No ads, no telemetry, no account."
 publish_to: 'none'
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ^3.13.3
