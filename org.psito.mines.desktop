@@ -8,6 +8,6 @@ Comment[pt]=Encontre os gatos escondidos sob as folhas
 Exec=psito_mines
 Icon=org.psito.mines
 Terminal=false
-Categories=Game;CardGame;
+Categories=Game;LogicGame;
 Keywords=mines;minesweeper;puzzle;cat;cockatiel;minas;gato;calopsita;
 StartupWMClass=org.psito.mines
