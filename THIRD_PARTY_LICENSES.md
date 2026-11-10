@@ -8,3 +8,5 @@ Psito Mines is under the [Apache License 2.0](LICENSE). It also ships:
 | Noto Serif Bold, used on the numbers of the leaves | SIL Open Font License 1.1 | [`assets/fonts/OFL.txt`](assets/fonts/OFL.txt) |
 | The tiles | CC0 1.0 | [`assets/LICENSE.md`](assets/LICENSE.md) |
 | The cockatiel, generated with Google Gemini, in `psito_games_ui` | CC0 1.0 | [psito-games-ui](https://github.com/francisceioseph/psito-games-ui/blob/master/assets/LICENSE.md) |
+| The sounds, by Kenney and by Freesound authors, in `psito_games_ui` | CC0 1.0 | [psito-games-ui](https://github.com/francisceioseph/psito-games-ui/blob/master/assets/LICENSE.md) |
+| The sound engine: flutter_soloud, with SoLoud and miniaudio, in `libflutter_soloud_plugin` | MIT, zlib and MIT-0 | `NOTICES` and [flutter_soloud](https://github.com/alnitak/flutter_soloud) |

@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:psito_games_ui/psito_games_ui.dart';
 import 'package:psito_mines/src/game/game_controller.dart';
 import 'package:psito_mines/src/game/game_state.dart';
 import 'package:psito_mines/src/game/scores.dart';
@@ -134,6 +135,33 @@ void main() {
       game.state = garden({0, 80}, open: {1}, flags: {0});
       game.tap(1);
       expect(game.state.open.contains(2), isTrue);
+    });
+  });
+
+  group('sounds', () {
+    test('a leaf, a feather and the cat', () {
+      final sounds = RecordedSounds();
+      final game = GameController(number: 3, sounds: sounds);
+      // The cat next door keeps the first leaf from opening the garden.
+      game.state = garden({39, 80});
+      game.tap(40);
+      game.flag(80);
+      game.flag(80);
+      game.tap(39);
+      expect(sounds.played, [
+        GameSound.leaf,
+        GameSound.feather,
+        GameSound.feather,
+        GameSound.cat,
+      ]);
+    });
+
+    test('the last leaf wins', () {
+      final sounds = RecordedSounds();
+      final game = GameController(number: 3, sounds: sounds);
+      game.state = garden({0});
+      game.tap(80);
+      expect(sounds.played, [GameSound.leaf, GameSound.victory]);
     });
   });
 

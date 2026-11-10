@@ -1,17 +1,25 @@
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
+import 'package:psito_games_ui/psito_games_ui.dart';
 
 import 'game_state.dart';
 
 /// A game in progress: the garden and the clock.
 class GameController extends ChangeNotifier {
-  GameController({this.difficulty = Difficulty.easy, int? number})
-    : number = number ?? _randomNumber() {
+  GameController({
+    this.difficulty = Difficulty.easy,
+    int? number,
+    SoundBoard? sounds,
+  }) : number = number ?? _randomNumber(),
+       sounds = sounds ?? GameSounds.shared {
     state = GameState(difficulty: difficulty, seed: this.number);
   }
 
   static int _randomNumber() => Random().nextInt(999999) + 1;
+
+  /// Where the sounds of the garden go.
+  final SoundBoard sounds;
 
   Difficulty difficulty;
   int number;
@@ -48,6 +56,14 @@ class GameController extends ChangeNotifier {
     if (next == null) return;
     state = next;
     origin = cell;
+    if (state.isLost) {
+      sounds.play(GameSound.cat);
+    } else {
+      sounds.play(GameSound.leaf);
+      if (state.isWon) {
+        sounds.play(GameSound.victory, delay: const Duration(milliseconds: 300));
+      }
+    }
     if (state.isOver) {
       _clock.stop();
     } else {
@@ -61,6 +77,7 @@ class GameController extends ChangeNotifier {
     final next = state.toggleFlag(cell);
     if (next == null) return;
     state = next;
+    sounds.play(GameSound.feather);
     notifyListeners();
   }
 }
